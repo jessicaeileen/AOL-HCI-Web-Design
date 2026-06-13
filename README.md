@@ -16,7 +16,6 @@ The complete UI/UX design and interactive prototype can be accessed through Figm
 ## File Structure
 
 ```
-AOL_web_CW/
 ```
 
 ## Features
