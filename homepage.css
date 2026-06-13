@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  color: #111;
+  background: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.logo span {
+  font-weight: normal;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons span {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  height: 600px;
+}
+
+.left-video,
+.right-video {
+  flex: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
+.hero-text {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  max-width: 400px;
+  background: rgba(225, 225, 225, 0.6);
+  padding: 1rem;
+}
+
+.highlight {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.xiwangmu-images {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.xiwangmu-img {
+  width: 300px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+.left {
+  background-image: url("download (9).jpeg");
+}
+
+.right {
+  background-image: url("cee55fd7-1fbc-4028-ad09-c1033618cbee.jpeg");
+}
+
+.categories,
+.accessories {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.cat,
+.item {
+  flex: 1;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  height: 400px;
+}
+
+.mens {
+  background-image: url("mens.jpg");
+}
+.womens {
+  background-image: url("womens.jpg");
+}
+.jewelry {
+  background-image: url("jewelry.jpg");
+}
+bags {
+  background-image: url("bags.jpg");
+}
+
+.cat a,
+.item a {
+  color: white;
+  text-decoration: underline;
+}
+
+.shows {
+  margin: 2rem 0;
+}
+.show {
+  position: relative;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.runway {
+  background-image: url("runway.jpg");
+}
+.model {
+  background-image: url("model.jpg");
+}
+
+footer {
+  background: #f4f4f4;
+  padding: 2rem;
+  font-size: 12px;
+}
+.footer-columns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer-columns div {
+  flex: 1;
+  min-width: 150px;
+  margin-right: 1rem;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0.5rem 0;
+}
