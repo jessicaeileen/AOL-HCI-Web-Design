@@ -16,6 +16,8 @@ The complete UI/UX design and interactive prototype can be accessed through Figm
 ## File Structure
 
 ```
+├── homepage.css
+└── homepage.html
 ```
 
 ## Features
